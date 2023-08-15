@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW06/hw06-2-roman-number.cpp",
+      "run": "./a.out",
+      "input": "8",
+      "output": "8 = VIII",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW06/hw06-2-roman-number.cpp",
+      "run": "./a.out",
+      "input": "4",
+      "output": "4 = IV",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 3",
+      "setup": "g++ -o a.out ./Homework/HW06/hw06-2-roman-number.cpp",
+      "run": "./a.out",
+      "input": "514",
+      "output": "514 = DXIV",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 4",
+      "setup": "g++ -o a.out ./Homework/HW06/hw06-2-roman-number.cpp",
+      "run": "./a.out",
+      "input": "929",
+      "output": "929 = CMXXIX",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
